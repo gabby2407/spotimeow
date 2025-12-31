@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "SpotiMeow",
+  "outputfilename": "SpotiMeow",
+  "frontend:install": "pnpm install",
+  "frontend:dev:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "afkarxyz"
+  },
+  "info": {
+    "productName": "SpotiMeow",
+    "productVersion": "7.0"
+  },
+  "wailsjsdir": "./frontend",
+  "assetdir": "./frontend/dist",
+  "reloaddirs": "./frontend/src"
+}
