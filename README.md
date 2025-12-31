@@ -219,7 +219,7 @@ SpotiMeow/
 
 *Modern interface showcasing audio analysis and download management*
 
-![SpotiMeow Interface](https://github.com/user-attachments/assets/afe01529-bcf0-4486-8792-62af26adafee)
+![SpotiMeow Interface](frontend/public/screenshot.png)
 
 *Clean, intuitive design built with React and Tailwind CSS*
 
