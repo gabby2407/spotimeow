@@ -4,412 +4,266 @@
 
 <img src="frontend/public/icon.png" alt="SpotiMeow Logo" width="120" height="120">
 
-### *High-Quality Music Downloader*
+### *Desktop Music Application - Portfolio Project*
 
-**🚀 Get Spotify tracks in true FLAC quality from Tidal, Qobuz & Amazon Music — no account required! 🚀**
-</div>
+**Modern cross-platform desktop application built with Go, Wails, React & TypeScript**
 
-## 📋 What is SpotiMeow?
+[![License](https://img.shields.io/badge/License-Custom-orange?style=for-the-badge)](LICENSE)
+[![Go](https://img.shields.io/badge/Go-1.19+-00ADD8?style=for-the-badge&logo=go)](https://golang.org)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
+[![Wails](https://img.shields.io/badge/Wails-v2-FF6B6B?style=for-the-badge)](https://wails.io)
 
-<div align="center">
-
-> **🎶 *Transform your music experience with lossless audio quality* 🎶**
-
-</div>
-
-SpotiMeow is a **powerful desktop application** that allows you to download high-quality FLAC audio files from multiple streaming platforms. Simply paste a Spotify track, album, or playlist URL, and SpotiMeow will find the same content on Tidal, Qobuz, or Amazon Music and download it in **lossless FLAC format**.
-
-<br>
-
-<div align="center">
-
-### ✨ **Key Features** ✨
-
-| Feature | Description |
-|:-------:|:------------|
-| 🎵 **High-Quality Audio** | Download tracks in **lossless FLAC format** |
-| 🔗 **Multiple Sources** | Fetches from **Tidal**, **Qobuz**, and **Amazon Music** |
-| 📱 **No Accounts Required** | No need to sign up for streaming services |
-| 🎨 **User-Friendly Interface** | Modern, intuitive design built with **React** and **Tailwind** |
-| ⚡ **Fast Downloads** | Efficient downloading with **real-time progress tracking** |
-| 📁 **Smart Organization** | Automatically organizes files with **proper metadata** |
+![Windows](https://img.shields.io/badge/Windows-10%2B-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-10.13%2B-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Any-FCC624?style=for-the-badge&logo=linux&logoColor=white)
 
 </div>
-
-<br>
-
-<div align="center">
 
 ---
 
-### 🌟 **Why Choose SpotiMeow?** 🌟
+## 🚀 **Project Overview**
 
-*Experience music the way it was meant to be heard - in crystal-clear, lossless quality!*
+**SpotiMeow** is a sophisticated desktop application that demonstrates modern cross-platform development using cutting-edge technologies. This project showcases advanced integration between multiple streaming platform APIs, real-time audio processing, and a sleek modern user interface.
 
 ---
 
-</div>
+## 🎵 **What SpotiMeow Does**
 
-## 🚀 **Quick Start Guide**
+**SpotiMeow** is a comprehensive music application that brings together multiple streaming platforms in one elegant desktop interface. Here's what makes it special:
+
+### 🔍 **Music Discovery & Search**
+- **Smart Search** - Find tracks, albums, playlists, and artists across platforms
+- **URL Processing** - Paste Spotify, Tidal, Qobuz, or Amazon Music URLs directly
+- **Cross-Platform Matching** - Automatically finds the same content across different services
+
+### 📥 **Multi-Source Track Access**
+- **Spotify Integration** - Browse and search your favorite Spotify content
+- **Tidal Access** - High-quality lossless audio from Tidal
+- **Qobuz Support** - Premium audiophile-quality tracks
+- **Amazon Music** - Alternative source for comprehensive coverage
+
+### 🎛️ **Advanced Audio Processing**
+- **Format Conversion** - Convert between MP3, FLAC, WAV, and more
+- **Quality Options** - Choose from various bitrates and quality levels
+- **Batch Processing** - Handle multiple tracks simultaneously
+- **Metadata Management** - Automatic tagging with complete track information
+
+### 📊 **Real-Time Audio Analysis**
+- **Spectrum Analyzer** - Visual representation of audio frequencies
+- **Audio Visualization** - Real-time waveform and spectrum displays
+- **Quality Metrics** - Analyze audio quality and characteristics
+- **Technical Details** - View codec, bitrate, and format information
+
+### 📂 **Intelligent Organization**
+- **Smart File Management** - Organize music by artist, album, genre
+- **Custom Folder Structure** - Configure how files are saved and named
+- **Metadata Embedding** - Complete ID3 tags, album art, and track info
+- **Library Management** - Keep track of your downloaded content
+
+### 🖥️ **Modern Interface**
+- **Tabbed Interface** - Separate tabs for different functions
+- **Input Tab** - Search and URL processing
+- **Output Tab** - Download management and file organization  
+- **Analyzer Tab** - Audio analysis and visualization tools
+- **Settings Tab** - Customize app behavior and preferences
+
+---
+
+## 🎯 **Core Functionality**
+- **Multi-platform music discovery** via API integrations
+- **High-quality audio processing** and format conversion
+- **Real-time spectrum analysis** and visualization
+- **Intelligent metadata extraction** and organization
+- **Cross-platform desktop deployment**
+
+---
+
+## 🛠️ **Technical Architecture**
 
 <div align="center">
 
-*Choose your adventure! Two paths to musical paradise* 🎵
+### **Tech Stack Highlights**
 
 </div>
 
-### 🎯 **Option 1: Download Pre-built Release** *(Easiest)*
+| **Category** | **Technology** | **Purpose** |
+|:------------:|:-------------:|:------------|
+| **Backend** | Go 1.19+ | Core application logic & system integration |
+| **Framework** | Wails v2 | Desktop app framework bridging Go & Web |
+| **Frontend** | React 18+ | Modern component-based user interface |
+| **Language** | TypeScript 5+ | Type-safe frontend development |
+| **Styling** | Tailwind CSS | Utility-first responsive design |
+| **Build Tool** | Vite | Fast development server & optimized builds |
+| **Audio** | FFmpeg | Audio processing & format conversion |
+| **UI Components** | Radix UI | Accessible, unstyled UI primitives |
+
+---
+
+## 🏗️ **Project Structure**
+
+```
+SpotiMeow/
+├── backend/                    # Go backend services
+│   ├── amazon.go              # Amazon Music API integration
+│   ├── tidal.go               # Tidal API integration  
+│   ├── qobuz.go               # Qobuz API integration
+│   ├── spotify_metadata.go   # Spotify metadata service
+│   ├── analysis.go            # Audio analysis engine
+│   ├── spectrum.go            # Spectrum visualization
+│   ├── ffmpeg.go              # Audio processing pipeline
+│   └── metadata.go            # Metadata extraction & tagging
+├── frontend/                  # React TypeScript frontend
+│   ├── src/
+│   │   ├── components/        # UI components
+│   │   ├── hooks/             # Custom React hooks
+│   │   ├── lib/               # Utility libraries
+│   │   └── types/             # TypeScript definitions
+│   └── public/                # Static assets
+└── wails.json                 # Wails configuration
+```
+
+---
+
+## ⚙️ **Key Features & Implementation**
+
+<div align="center">
+
+### **Technical Highlights**
+
+</div>
 
 <details>
-<summary><b>📥 Click here for instant setup!</b></summary>
+<summary><b>🎵 Multi-Platform API Integration</b></summary>
 
 <br>
 
-1. 🌐 **Visit** the [**Releases page**](https://github.com/afkarxyz/SpotiFLAC/releases)
-2. 💾 **Download** the latest `.exe` file for Windows
-3. 🚀 **Run** the downloaded file
-4. 🖥️ **Create desktop shortcut** by right-clicking the app → *"Create shortcut"*
+**Advanced API Architecture:**
+- **Spotify Web API** - Track/album/playlist metadata extraction
+- **Tidal API** - High-quality audio source discovery
+- **Qobuz API** - Lossless audio format access
+- **Amazon Music API** - Alternative source resolution
+- **SongLink API** - Cross-platform music matching
 
-**⭐ That's it! You're ready to download high-quality music!**
+**Implementation Features:**
+- Concurrent API calls with goroutines
+- Intelligent fallback mechanisms
+- Rate limiting and error handling
+- Response caching for performance
+
+</details>
+
+<details>
+<summary><b>🎨 Modern React Frontend</b></summary>
+
+<br>
+
+**Frontend Architecture:**
+- **Component-based design** with TypeScript
+- **Custom hooks** for state management
+- **Real-time updates** via Wails bindings
+- **Responsive UI** with Tailwind CSS
+- **Dark/Light theme** support
+
+**Key Components:**
+- `AudioAnalysisPage` - Real-time spectrum visualization
+- `DownloadProgress` - Progress tracking with animations
+- `FileManagerPage` - File system integration
+- `SettingsPage` - Configuration management
+
+</details>
+
+<details>
+<summary><b>🔊 Audio Processing Pipeline</b></summary>
+
+<br>
+
+**Audio Engineering:**
+- **FFmpeg integration** for format conversion
+- **Spectrum analysis** with real-time visualization
+- **Metadata embedding** (ID3, FLAC tags)
+- **Quality optimization** algorithms
+- **Batch processing** capabilities
+
+**Supported Formats:**
+- Input: MP3, M4A, OGG, OPUS
+- Output: FLAC, MP3, WAV
+- Metadata: ID3v2, Vorbis, APE
+
+</details>
+
+<details>
+<summary><b>⚡ Cross-Platform Development</b></summary>
+
+<br>
+
+**Wails Framework Benefits:**
+- **Single codebase** for Windows, macOS, Linux
+- **Native performance** with Go backend
+- **Web UI flexibility** with React frontend
+- **System integration** (file dialogs, notifications)
+- **Auto-updater** support
+
+**Build Targets:**
+- Windows (.exe)
+- macOS (.app)
+- Linux (AppImage/DEB/RPM)
 
 </details>
 
 ---
 
-### 🛠️ **Option 2: Build from Source** *(For Developers)*
-
-<details>
-<summary><b>🔨 Click here for the complete build guide!</b></summary>
-
-<br>
-
-> **📚 Follow these step-by-step instructions to set up and run SpotiMeow on your computer**
-
-<br>
-
-## 📋 **Prerequisites**
+## 🎬 **Screenshots**
 
 <div align="center">
 
-*Before you begin, make sure you have these tools installed:*
-
-</div>
-
-<br>
-
-### 🔧 **1. Install Go Programming Language**
-
-| Step | Action |
-|:----:|:-------|
-| 🌐 | Visit [**golang.org/dl/**](https://golang.org/dl/) |
-| 💾 | Download the installer for your operating system |
-| 🚀 | Run the installer and follow the setup wizard |
-| ✅ | Verify by typing: `go version` |
-
-```bash
-# Verify installation
-go version
-```
-
-<br>
-
-### 📦 **2. Install Node.js and pnpm**
-
-| Step | Action |
-|:----:|:-------|
-| 🌐 | Visit [**nodejs.org**](https://nodejs.org/) |
-| 💾 | Download and install the **LTS version** |
-| 📦 | Install pnpm: `npm install -g pnpm` |
-| ✅ | Verify installation |
-
-```bash
-# Install pnpm
-npm install -g pnpm
-
-# Verify installations
-node --version
-pnpm --version
-```
-
-<br>
-
-### ⚡ **3. Install Wails Framework**
-
-| Step | Action |
-|:----:|:-------|
-| 🔑 | Open **Command Prompt/Terminal as Administrator** |
-| 📦 | Install Wails framework |
-| ✅ | Verify installation |
-
-```bash
-# Install Wails
-go install github.com/wailsapp/wails/v2/cmd/wails@latest
-
-# Verify installation
-wails version
-```
-
-<br>
-
----
-
-## 📦 **Installation Steps**
-
-### 🔽 **Step 1: Download the Source Code**
-
-<div align="center">
-
-*Choose your preferred method:*
-
-</div>
-
-<br>
-
-#### 🐙 **Option A - Using Git** *(Recommended)*
-```bash
-git clone https://github.com/afkarxyz/SpotiFLAC.git
-cd SpotiFLAC
-```
-
-#### 📁 **Option B - Download ZIP**
-- 🌐 Go to the **repository page**
-- 📥 Click **"Code"** → **"Download ZIP"**
-- 📂 Extract the ZIP file to your desired location
-- 💻 Open Command Prompt/Terminal in that folder
-
-<br>
-
-### 🔧 **Step 2: Install Dependencies**
-
-```bash
-# Navigate to project folder and install dependencies
-pnpm install
-```
-
-> 🎉 **Great! All dependencies are now installed!**
-
-<br>
-
----
-
-## 🛠️ **Running the Application**
-
-<div align="center">
-
-### 🎯 **Choose Your Mode**
-
-</div>
-
-<br>
-
-### 🚧 **Development Mode** *(For Testing/Development)*
-
-```bash
-# Run with hot-reload
-wails dev
-```
-
-> ✨ **Features:**
-> - 🔄 **Automatic reload** when you make changes
-> - 🐛 **Perfect for testing** and development
-> - 🚀 **Instant feedback** on your modifications
-
-<br>
-
-### 🏭 **Production Build** *(Create Executable)*
-
-#### **🔨 Build the Application:**
-```bash
-wails build
-```
-
-#### **📁 Find Your Executable:**
-
-| Platform | Location |
-|:--------:|:---------|
-| 🪟 **Windows** | `build/bin/SpotiMeow.exe` |
-| 🍎 **macOS** | `build/bin/SpotiMeow.app` |
-| 🐧 **Linux** | `build/bin/SpotiMeow` |
-
-<br>
-
-#### **🖥️ Create Desktop Shortcuts:**
-
-<details>
-<summary><b>Windows 🪟</b></summary>
-
-1. Right-click on `SpotiMeow.exe`
-2. Select **"Create shortcut"**
-3. Move the shortcut to your **Desktop**
-4. *Optional:* Rename it to **"SpotiMeow"**
-
-</details>
-
-<details>
-<summary><b>macOS 🍎</b></summary>
-
-1. Drag `SpotiMeow.app` to your **Applications** folder
-2. Right-click and select **"Make Alias"**
-3. Move the alias to your **Desktop**
-
-</details>
-
-<details>
-<summary><b>Linux 🐧</b></summary>
-
-1. Copy the executable to `/usr/local/bin/` *(optional)*
-2. Create a `.desktop` file in `~/.local/share/applications/`
-
-</details>
-
-</details>
-
----
-
-<div align="center">
-
-## 🎯 **How to Use SpotiMeow**
-
-*Simple steps to musical bliss* 🎵✨
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 🚀 **5-Step Process**
-
-| Step | Action | Icon |
-|:----:|:-------|:----:|
-| **1** | **🚀 Launch the app** by double-clicking the executable or shortcut | 🖱️ |
-| **2** | **📋 Copy a Spotify URL** (track, album, or playlist) | 🔗 |
-| **3** | **📥 Paste the URL** into SpotiMeow's search bar | 📝 |
-| **4** | **⚙️ Select your preferred quality** and output folder | 🎛️ |
-| **5** | **⬇️ Click Download** and wait for the magic to happen! | ✨ |
-
-<br>
-
-### 🎵 **Enjoy your high-quality FLAC files!** 🎵
-
-*Crystal-clear audio awaits you!* 
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-## 🔧 **Troubleshooting**
-
-*Having issues? We've got you covered!* 🛠️
-
-</div>
-
-<br>
-
-### 🚨 **Common Issues & Solutions:**
-
-<details>
-<summary><b>❌ "wails command not found"</b></summary>
-
-**🔍 Solution:** Make sure Go's bin directory is in your PATH environment variable.
-
-```bash
-# Check your Go installation
-go env GOPATH
-```
-
-</details>
-
-<details>
-<summary><b>❌ Build fails</b></summary>
-
-**🔍 Solution:** Ensure all dependencies are installed correctly.
-
-```bash
-# Clean and reinstall dependencies
-rm -rf node_modules
-pnpm install
-```
-
-</details>
-
-<details>
-<summary><b>❌ App won't start</b></summary>
-
-**🔍 Solution:** Check if you have the required system libraries installed.
-
-</details>
-
-<br>
-
-### 🆘 **Getting Help:**
-
-- 🔍 Check the [**Issues page**](https://github.com/afkarxyz/SpotiFLAC/issues) for known problems
-- 🐛 Create a **new issue** if you encounter a bug
-- 💬 Join our community discussions
-
-<br>
-
----
-
-<div align="center">
-
-## 📸 **Screenshot**
-
-*See SpotiMeow in action!* 🎬
+*Modern interface showcasing audio analysis and download management*
 
 ![SpotiMeow Interface](https://github.com/user-attachments/assets/afe01529-bcf0-4486-8792-62af26adafee)
 
-*Beautiful, modern interface designed for ease of use* ✨
+*Clean, intuitive design built with React and Tailwind CSS*
 
 </div>
 
-<br>
+---
+
+## 🧩 **Development Highlights**
+
+### **Advanced Implementations:**
+- ⚡ **Concurrent Processing** - Goroutines for parallel API calls
+- 🎨 **Modern UI Patterns** - React hooks and context API
+- 🔄 **Real-time Updates** - WebSocket-like Wails bindings
+- 📊 **Data Visualization** - Canvas-based spectrum analysis
+- 🛠️ **Type Safety** - Full TypeScript integration
+- 🎯 **Performance Optimization** - Efficient caching strategies
+
+### **Code Quality:**
+- **ESLint + Prettier** - Code formatting and linting
+- **TypeScript** - Static type checking
+- **Component Architecture** - Reusable UI components
+- **Error Handling** - Comprehensive error boundaries
+- **Testing Ready** - Structured for unit/integration tests
+
+---
+
+## 📄 **License & Usage**
+
+This project is licensed under a **Custom Attribution License**. See the [LICENSE](LICENSE) file for details.
+
+**TL;DR:** You may use this software but must provide proper attribution to the original author.
 
 ---
 
 <div align="center">
 
-## 💝 **Support the Project**
+**🎵 SpotiMeow - Showcasing Modern Desktop Development 🎵**
 
-*Love SpotiMeow? Show some love back!* ❤️
+*Built with passion for music and technology*
 
-<br>
-
-**If you find SpotiMeow useful, consider supporting the development:**
-
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/afkarxyz)
-
-<br>
-
-### 🌟 **Ways to Support:**
-- ⭐ **Star this repository**
-- 🐛 **Report bugs** and suggest features
-- 💬 **Share** with your friends
-- ☕ **Buy us a coffee** via Ko-fi
-
-</div>
-
-<br>
+**Developed by [Hiba Trifi](https://github.com/hiba-trifi) | 2025**
 
 ---
 
-<div align="center">
-
-### 🎵✨ **Enjoy your high-quality music downloads with SpotiMeow!** ✨🎵
-
-*Transform your music library today!* 🚀
-
-<br>
-
-**Made with ❤️ for music lovers everywhere** 🌍
-
----
-
-*© 2025 SpotiMeow - Bringing you closer to perfect sound quality* 🎶
+*Demonstrating the power of Go + React for cross-platform desktop applications*
 
 </div>
